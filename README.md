@@ -12,6 +12,9 @@
 
 A small library for turning RSS XML feeds into JavaScript objects.
 
+## Fork of rss-parser
+Added support for windows-1251 encoded feeds. Replaced native http module with axios.
+
 ## Installation
 ```bash
 npm install --save rss-parser
